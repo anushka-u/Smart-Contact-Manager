@@ -1,0 +1,24 @@
+This Project is divided into two Modules 
+1-  User Management ->
+        Features under UM  are
+            1. Register
+            2. Signin
+            3. Sign out
+
+2- Contact Management-
+    1. Show Contact
+    2. Update Contact
+    3. Add Contact
+    4. Search Contact (Optional)
+
+Technology USED ----
+______________________________________
+
+SpringBoot
+Modules- 
+  1. Spring MVC
+  2.Thymeleaf
+  3. JPA - Hibernate
+  4.Spring Security
+
+DataBase - MYSQL
