@@ -10,3 +10,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  thymeleaf:
+    enabled: true
+server:
+  port: 8082
+logging:
+  level:
+    root: INFO
