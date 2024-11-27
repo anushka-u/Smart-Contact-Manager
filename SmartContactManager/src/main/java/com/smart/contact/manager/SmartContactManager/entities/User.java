@@ -25,7 +25,7 @@ public class User {
     private String about;
 
     // CASCADETYPE.ALL -> If we will add contacts in user then it will add all contacts in user, if we will delete all user it will remove all contacts added to user
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY, mappedBy ="user")
     private ArrayList<Contact> contactList = new ArrayList<>();
 
 }
